@@ -28,6 +28,7 @@ export interface ChainInformation {
   demon: string;
   feeAmount: number;
   gasPrice: number;
+  schedule: string;
 }
 
 export type ChainType = 'HUAHUA' | 'OSMOSIS';

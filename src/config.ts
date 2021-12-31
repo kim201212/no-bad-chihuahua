@@ -12,6 +12,8 @@ export const SUPPORT_CHAIN_LIST: ChainInformation[] = [
     demon: 'uhuahua',
     feeAmount: 7000,
     gasPrice: 200000,
+    schedule: '*/1 * * * *',
+
   },
   {
     name: 'osmo',
@@ -22,6 +24,7 @@ export const SUPPORT_CHAIN_LIST: ChainInformation[] = [
     demon: 'uosmo',
     feeAmount: 0,
     gasPrice: 250000,
+    schedule: '*/1 * * * *',
   },
   {
     name: 'comdex',
@@ -32,5 +35,6 @@ export const SUPPORT_CHAIN_LIST: ChainInformation[] = [
     demon: 'ucmdx',
     feeAmount: 6000,
     gasPrice: 200000,
+    schedule: '*/1 * * * *',
   },
 ];

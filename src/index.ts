@@ -53,7 +53,7 @@ const run = async () => {
     } else {
       privateKey = convertHexStringToBuffer(authString.startsWith('0x') ? authString.slice(2) : authString);
     }
-    schedule.scheduleJob('*/1 * * * *', async () => {
+    schedule.scheduleJob(selectedChainInformation.schedule, async () => {
       await autoStaking(privateKey, selectedChainInformation);
     });
   }
